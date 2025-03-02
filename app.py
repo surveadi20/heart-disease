@@ -19,19 +19,19 @@ def predict_heart_disease(d):
 st.title("Heart Disease Prediction")
 
 # Input fields for each parameter
-age = st.number_input("age", min_value=29.0, max_value=77.0, value=29.0, step=1)
-sex = st.number_input("sex", min_value=0.0, max_value=1.0, value=0.0, step=1)
-cp = st.number_input("cp", min_value=0.0, max_value=3.0, value=0.0, step=1)
-trestbps = st.number_input("trestbps", min_value=94.0, max_value=200.0, value=94.0, step=1)
-chol = st.number_input("chol", min_value=126.0, max_value=564.0, value=126.0, step=1)
+age = st.number_input("age", min_value=29.0, max_value=77.0, value=29.0, step=0.1)
+sex = st.number_input("sex", min_value=0.0, max_value=1.0, value=0.0, step=0.1)
+cp = st.number_input("cp", min_value=0.0, max_value=3.0, value=0.0, step=0.1)
+trestbps = st.number_input("trestbps", min_value=94.0, max_value=200.0, value=94.0, step=0.1)
+chol = st.number_input("chol", min_value=126.0, max_value=564.0, value=126.0, step=0.1)
 fbs = st.number_input("fbs", min_value=0.0, max_value=1.0, value=0.0, step=0.1)
 restecg = st.number_input("restecg", min_value=0.78, max_value=2.0, value=0.78, step=0.1)
-thalach = st.number_input("thalach", min_value=71.0, max_value=202.0, value=71.0, step=1)
-exang = st.number_input("exang", min_value=0.0, max_value=1.0, value=0.0, step=1)
-oldpeak = st.number_input("oldpeak", min_value=0.0, max_value=6.20, value=0.0, step=1)
-slope = st.number_input("slope", min_value=0.0, max_value=2.0, value=0.0, step=1)
-ca = st.number_input("ca", min_value=0.0, max_value=4.0, value=0.0, step=1)
-thal = st.number_input("thal", min_value=0.0, max_value=3.0, value=0.0, step=1)
+thalach = st.number_input("thalach", min_value=71.0, max_value=202.0, value=71.0, step=0.1)
+exang = st.number_input("exang", min_value=0.0, max_value=1.0, value=0.0, step=0.1)
+oldpeak = st.number_input("oldpeak", min_value=0.0, max_value=6.20, value=0.0, step=0.1)
+slope = st.number_input("slope", min_value=0.0, max_value=2.0, value=0.0, step=0.1)
+ca = st.number_input("ca", min_value=0.0, max_value=4.0, value=0.0, step=0.1)
+thal = st.number_input("thal", min_value=0.0, max_value=3.0, value=0.0, step=0.1)
 
 # Create the input dictionary for prediction
 input_data = {
