@@ -43,7 +43,8 @@ input_data = {
     'fbs': fbs,
     'restecg': restecg,
     'thalach': thalach,
-    'exang': oldpeak,
+    'exang': exang,
+   ' oldpeak': oldpeak,
     'slope': slope,
     'ca': ca,
     'thal': thal
