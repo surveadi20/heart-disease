@@ -44,7 +44,7 @@ input_data = {
     'restecg': restecg,
     'thalach': thalach,
     'exang': exang,
-   ' oldpeak': oldpeak,
+   'oldpeak': oldpeak,
     'slope': slope,
     'ca': ca,
     'thal': thal
