@@ -41,7 +41,7 @@ input_data = {
     'trestbps': trestbps,
     'chol': chol,
     'fbs': fbs,
-    'restecg': testecg,
+    'restecg': restecg,
     'thalach': thalach,
     'exang': oldpeak,
     'slope': slope,
